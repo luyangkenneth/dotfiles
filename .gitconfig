@@ -14,6 +14,7 @@
   cob = checkout -b
   ci = commit
   cm = commit -m
+  pushf = push --force-with-lease
   di = diff
   dh = diff HEAD~1
   ds = diff --staged
