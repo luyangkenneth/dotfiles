@@ -9,3 +9,6 @@
 .TemporaryItems
 .Trashes
 Thumbs.db
+
+*.log
+*.pyc
