@@ -1,0 +1,28 @@
+[
+  { "keys": ["super+\\"], "command": "toggle_side_bar" },
+  { "keys": ["super+shift+\\"], "command": "reveal_in_side_bar"},
+
+  { "keys": ["super+v"], "command": "paste_and_indent" },
+  { "keys": ["super+shift+v"], "command": "paste" },
+
+  { "keys": ["super+."], "command": "rails_go_to_spec" },
+
+  { "keys": ["ctrl+super+up"],
+    "command": "run_multiple_commands",
+    "args": {
+      "commands": [
+        { "command": "swap_line_up" },
+        { "command": "reindent", "args": { "single_line": true } }
+      ]
+    }
+  },
+  { "keys": ["ctrl+super+down"],
+    "command": "run_multiple_commands",
+    "args": {
+      "commands": [
+        { "command": "swap_line_down" },
+        { "command": "reindent", "args": { "single_line": true } }
+      ]
+    }
+  }
+]

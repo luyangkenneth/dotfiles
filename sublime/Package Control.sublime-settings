@@ -1,0 +1,22 @@
+{
+	"bootstrapped": true,
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"AdvancedNewFile",
+		"All Autocomplete",
+		"Anaconda",
+		"AutoPEP8",
+		"BracketHighlighter",
+		"GitGutter",
+		"Material Theme",
+		"Package Control",
+		"RailsGoToSpec",
+		"RawLineEdit",
+		"Ruby Slim",
+		"SCSS",
+		"SublimeCodeIntel"
+	]
+}
