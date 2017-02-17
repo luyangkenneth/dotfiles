@@ -14,13 +14,14 @@
   cob = checkout -b
   ci = commit
   cm = commit -m
+  ca = commit --amend
   pushf = push --force-with-lease
   di = diff
   dh = diff HEAD~1
   ds = diff --staged
   unstage = reset HEAD --
-  lg = log -8 --graph --abbrev-commit --pretty=format:'%C(red)%h%C(reset) - %C(yellow)%d%C(reset) %s'
-  la = log --graph --abbrev-commit --pretty=format:'%C(red)%h%C(reset) - %C(yellow)%d%C(reset) %s'
-  la2 = log --graph --abbrev-commit --pretty=format:'%C(red)%h%C(reset) - %C(yellow)%d%C(reset) %s %C(cyan)(%cr)%C(reset)'
+  lg = log -8 --graph --pretty=format:'%C(red)%h%C(reset)%C(yellow)%d%C(reset) %s'
+  la = log --graph --pretty=format:'%C(red)%h%C(reset)%C(yellow)%d%C(reset) %s'
+  la2 = log --graph --pretty=format:'%C(red)%h%C(reset)%C(yellow)%d%C(reset) %s %C(cyan)(%cr by %cN)%C(reset)'
 [push]
   default = current
