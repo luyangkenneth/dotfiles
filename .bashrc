@@ -11,6 +11,7 @@ alias te='open /Applications/TextEdit.app'
 alias r='. ~/.bashrc && echo "Reloaded bash configuration!"'
 alias sweep='find . -name .DS_Store -type f -delete'
 alias remigrate='rake db:migrate:reset'
+alias be='bundle exec'
 
 ### Git
 alias g='git status'
