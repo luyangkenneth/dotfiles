@@ -23,4 +23,5 @@ export PS1="\W\[\033[32m\]\$(parse_git_branch)\[\033[00m\] $ "
 export PATH=/usr/local/sbin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin # Defaults + Homebrew
 [[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" # Load RVM into a shell session *as a function*
 export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
+export PATH=$PATH:/usr/local/go/bin
 export PATH=$PATH:/Applications/Postgres.app/Contents/Versions/latest/bin
