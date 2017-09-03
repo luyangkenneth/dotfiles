@@ -20,7 +20,7 @@
   di = diff
   dh = diff HEAD~1
   ds = diff --staged
-  discard = checkout -- .
+  discard = checkout --
   unstage = reset HEAD --
   lg = log -8 --graph --pretty=format:'%C(red)%h%C(reset)%C(yellow)%d%C(reset) %s'
   la = log --graph --pretty=format:'%C(red)%h%C(reset)%C(yellow)%d%C(reset) %s'
