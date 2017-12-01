@@ -7,10 +7,9 @@
 	[
 		"AdvancedNewFile",
 		"All Autocomplete",
-		"Anaconda",
-		"AutoPEP8",
 		"BracketHighlighter",
 		"GitGutter",
+		"JSX",
 		"Material Theme",
 		"Package Control",
 		"RailsGoToSpec",
