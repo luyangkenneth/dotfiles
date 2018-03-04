@@ -9,6 +9,8 @@
 [alias]
   fm = fetch origin master:master
   fp = fetch --prune
+  rbm = rebase master
+  rim = rebase -i master
   st = status
   br = branch
   co = checkout
