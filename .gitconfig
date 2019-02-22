@@ -2,15 +2,13 @@
   ui = true
 [user]
   name = Kenneth Lu
-  email = lu.yang.kenneth@gmail.com
+  email = kennethlu@asana.com
 [core]
   excludesfile = ~/.gitignore_global
   editor = sublime -w
 [alias]
-  fm = fetch origin master:master
-  fp = fetch --prune
-  rbm = rebase master
-  rim = rebase -i master
+  rbm = rebase kennethlu-master
+  rim = rebase -i kennethlu-master
   st = status
   br = branch
   co = checkout
@@ -24,8 +22,8 @@
   ds = diff --staged
   discard = checkout --
   unstage = reset HEAD --
-  lg = log -15 --graph --pretty=format:'%C(red)%h%C(reset)%C(yellow)%d%C(reset) %s'
-  la = log --graph --pretty=format:'%C(red)%h%C(reset)%C(yellow)%d%C(reset) %s'
-  la2 = log --graph --pretty=format:'%C(red)%h%C(reset)%C(yellow)%d%C(reset) %s %C(cyan)(%cr by %cN)%C(reset)'
+  lg = log kennethlu-master..HEAD -15 --pretty=format:'%C(red)%h%C(reset)%C(yellow)%d%C(reset) %s'
+  la = log -15 --pretty=format:'%C(red)%h%C(reset)%C(yellow)%d%C(reset) %s'
+  la2 = log --pretty=format:'%C(red)%h%C(reset)%C(yellow)%d%C(reset) %s %C(cyan)(%cr by %cN)%C(reset)'
 [push]
   default = current
