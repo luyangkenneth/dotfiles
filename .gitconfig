@@ -12,12 +12,14 @@
   st = status
   br = branch
   co = checkout
+  com = checkout kennethlu-master
   cob = checkout -b
   ci = commit
   cm = commit -m
   ca = commit --amend
   pushf = push --force-with-lease
   di = diff
+  dim = diff kennethlu-master
   dh = diff HEAD~1
   ds = diff --staged
   discard = checkout --
