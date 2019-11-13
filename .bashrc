@@ -19,3 +19,5 @@ export PS1="\[\033[38;5;213m\]>\[\033[00m\] \W\[\033[32m\]\$(parse_git_branch)\[
 
 ### Paths
 export PATH=/usr/local/sbin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin # Defaults + Homebrew
+
+export BASH_SILENCE_DEPRECATION_WARNING=1
