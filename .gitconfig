@@ -10,13 +10,10 @@
 [alias]
   rbm = rebase kennethlu-master
   rim = rebase -i kennethlu-master
-  rbrm = rebase revenue-master
-  rirm = rebase -i revenue-master
   st = status
   br = branch
   co = checkout
   com = checkout kennethlu-master
-  corm = checkout revenue-master
   cob = checkout -b
   ci = commit
   cm = commit -m
@@ -24,7 +21,6 @@
   pushf = push --force-with-lease
   di = diff
   dim = diff kennethlu-master
-  dirm = diff revenue-master
   dh = diff HEAD~1
   ds = diff --staged
   discard = checkout --
