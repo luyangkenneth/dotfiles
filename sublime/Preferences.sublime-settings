@@ -6,7 +6,7 @@
 	"bold_folder_labels": true,
 	"caret_extra_bottom": 1,
 	"caret_extra_top": 1,
-	"close_windows_when_empty": false,
+	"close_windows_when_empty": true,
 	"color_scheme": "Packages/Material Theme/schemes/Material-Theme.tmTheme",
 	// <key>guide</key>
 	// <string>#404F55</string>

@@ -6,6 +6,7 @@
 [core]
   excludesfile = ~/.gitignore_global
   editor = sublime -w
+  ignorecase = false
 [alias]
   rbm = rebase kennethlu-master
   rim = rebase -i kennethlu-master

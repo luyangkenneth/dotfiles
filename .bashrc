@@ -10,6 +10,7 @@ alias te='open /Applications/TextEdit.app'
 ### Actions
 alias reload='. ~/.bash_profile && echo "Reloaded bash configuration!"'
 alias sweep='find . -name .DS_Store -type f -delete'
+alias bzlfix='bzl-fix -diff kennethlu-master'
 
 ### Git
 alias g='git status'
