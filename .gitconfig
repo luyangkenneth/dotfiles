@@ -31,3 +31,14 @@
   ios = !$IOS/scripts/git-ios
 [push]
   default = current
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
+[maintenance]
+	repo = /Users/kennethlu/sandbox/asana
+[commit]
+	gpgsign = true
+[diff]
+	colormoved = dimmed-zebra
