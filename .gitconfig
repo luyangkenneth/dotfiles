@@ -40,5 +40,3 @@
 	repo = /Users/kennethlu/sandbox/asana
 [commit]
 	gpgsign = true
-[diff]
-	colormoved = dimmed-zebra
