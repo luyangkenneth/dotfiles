@@ -5,6 +5,7 @@
 	],
 	"installed_packages":
 	[
+		"A File Icon",
 		"AdvancedNewFile",
 		"All Autocomplete",
 		"BracketHighlighter",
@@ -12,10 +13,8 @@
 		"JSX",
 		"Material Theme",
 		"Package Control",
-		"RailsGoToSpec",
 		"RawLineEdit",
-		"Ruby Slim",
 		"SCSS",
-		"SublimeCodeIntel"
-	]
+		"SublimeCodeIntel",
+	],
 }

@@ -5,8 +5,6 @@
   { "keys": ["super+v"], "command": "paste_and_indent" },
   { "keys": ["super+shift+v"], "command": "paste" },
 
-  { "keys": ["super+."], "command": "rails_go_to_spec" },
-
   { "keys": ["ctrl+super+up"],
     "command": "run_multiple_commands",
     "args": {
