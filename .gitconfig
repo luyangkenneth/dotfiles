@@ -7,6 +7,7 @@
   excludesfile = ~/.gitignore_global
   editor = sublime -w
   ignorecase = false
+  pager = cat
 [alias]
   rbm = rebase next-master
   rim = rebase -i next-master
@@ -32,15 +33,15 @@
 [push]
   default = current
 [filter "lfs"]
-	clean = git-lfs clean -- %f
-	smudge = git-lfs smudge -- %f
-	process = git-lfs filter-process
-	required = true
+  clean = git-lfs clean -- %f
+  smudge = git-lfs smudge -- %f
+  process = git-lfs filter-process
+  required = true
 [maintenance]
-	repo = /Users/kennethlu/sandbox/asana
+  repo = /Users/kennethlu/sandbox/asana
 [commit]
-	gpgsign = true
+  gpgsign = true
 [status]
-	showStash = true
+  showStash = true
 [diff]
-	colormovedws = allow-indentation-change
+  colormovedws = allow-indentation-change
