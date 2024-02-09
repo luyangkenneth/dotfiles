@@ -23,7 +23,7 @@ alias bzlfix='bzl-fix -diff next-master'
 ### Git
 alias g='git status'
 alias gp='git remote prune origin'
-alias fm='git fetch origin next-master:next-master'
+alias fm='git fetch origin next-master:next-master && gp'
 alias dt='z designtokens generate && prettier'
 alias gcob='git checkout -b'
 alias merged='git com && git br -D @{-1} && git up && gp'
