@@ -40,3 +40,7 @@
 	repo = /Users/kennethlu/sandbox/asana
 [commit]
 	gpgsign = true
+[status]
+	showStash = true
+[diff]
+	colormovedws = allow-indentation-change
