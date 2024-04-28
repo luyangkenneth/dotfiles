@@ -6,6 +6,8 @@
 [core]
   excludesfile = ~/.gitignore_global
   editor = sublime -w
+  ignorecase = false
+  pager = cat
 [alias]
   fm = fetch origin master:master
   fp = fetch --prune
@@ -14,12 +16,14 @@
   st = status
   br = branch
   co = checkout
+  com = checkout master
   cob = checkout -b
   ci = commit
   cm = commit -m
   ca = commit --amend
   pushf = push --force-with-lease
   di = diff
+  dim = diff master
   dh = diff HEAD~1
   ds = diff --staged
   discard = checkout --
@@ -29,3 +33,7 @@
   la2 = log --graph --pretty=format:'%C(red)%h%C(reset)%C(yellow)%d%C(reset) %s %C(cyan)(%cr by %cN)%C(reset)'
 [push]
   default = current
+[status]
+  showStash = true
+[diff]
+  colormovedws = allow-indentation-change
