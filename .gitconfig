@@ -11,6 +11,8 @@
 [alias]
   rbm = rebase next-master
   rim = rebase -i next-master
+  rbc = rebase --continue
+  cp = cherry-pick
   st = status
   br = branch
   co = checkout
@@ -21,6 +23,7 @@
   ca = commit --amend
   pushf = push --force-with-lease
   di = diff
+  dc = "!f() { git diff \"$1^\" \"$1\"; }; f"
   dim = diff next-master
   dh = diff HEAD~1
   ds = diff --staged
