@@ -31,7 +31,7 @@
   unstage = reset HEAD --
   lg = log next-master..HEAD -15 --pretty=format:'%C(red)%h%C(reset)%C(yellow)%d%C(reset) %s'
   la = log -15 --pretty=format:'%C(red)%h%C(reset)%C(yellow)%d%C(reset) %s'
-  la2 = log --pretty=format:'%C(red)%h%C(reset)%C(yellow)%d%C(reset) %s %C(cyan)(%cr by %cN)%C(reset)'
+  la2 = log -15 --pretty=format:'%C(red)%h%C(reset)%C(yellow)%d%C(reset) %s %C(cyan)(%cr by %cN)%C(reset)'
   ios = !$IOS/scripts/git-ios
 [push]
   default = current
@@ -48,3 +48,4 @@
   showStash = true
 [diff]
   colormovedws = allow-indentation-change
+  algorithm = histogram
