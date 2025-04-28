@@ -15,6 +15,7 @@
   cp = cherry-pick
   st = status
   br = branch
+  del = branch -D
   co = checkout
   com = checkout next-master
   cob = checkout -b

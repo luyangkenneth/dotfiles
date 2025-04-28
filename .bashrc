@@ -1,10 +1,11 @@
 ### Asana
-export ASANA_GIT_EMAIL=kennethlu@asana.com
-export MAC_CONFIGURE_VERSION=2
-export CODEZ=~/sandbox/asana
+# Redeclared in .profile
+# export ASANA_GIT_EMAIL=kennethlu@asana.com
+# export MAC_CONFIGURE_VERSION=2
+# export CODEZ=~/sandbox/asana
 
-source $CODEZ/admin/mac.bashrc
-source $CODEZ/admin/eng/vagrant_helpers.sh
+# source $CODEZ/admin/mac.bashrc
+# source $CODEZ/admin/eng/vagrant_helpers.sh
 
 ### Navigation
 export CLICOLOR=1
@@ -13,6 +14,7 @@ alias la='ls -alh'
 
 ### Applications
 alias config='sublime ~/.bashrc'
+alias gitconfig='sublime ~/.gitconfig'
 alias te='open /Applications/TextEdit.app'
 
 ### Actions
