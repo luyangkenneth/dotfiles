@@ -22,6 +22,8 @@ alias reload='. ~/.bash_profile && echo "Reloaded bash configuration!"'
 alias sweep='find . -name .DS_Store -type f -delete'
 alias gbf='generate-build-file'
 alias bzlfix='generate-build-file --diff next-master'
+alias newsand='z sand sync webapp -n --webapp-run-arg=enable_sol_theme_toggler=true'
+alias keepsand='z sand sync webapp -k --webapp-run-arg=enable_sol_theme_toggler=true'
 
 ### Git
 alias g='git status'
@@ -36,3 +38,8 @@ export PS1="\[\033[38;5;213m\]>\[\033[00m\] \W\[\033[32m\]\$(parse_git_branch)\[
 
 export EDITOR="sublime -w"
 export BASH_SILENCE_DEPRECATION_WARNING=1
+
+. "$HOME/.cargo/env"
+
+# uv
+export PATH="/Users/kennethlu/.local/bin:$PATH"
