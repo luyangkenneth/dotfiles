@@ -362,6 +362,22 @@
 	<false/>
 	<key>EnableProxyIcon</key>
 	<false/>
+	<key>GlobalKeyMap</key>
+	<dict>
+		<key>0xd-0x20000-0x24</key>
+		<dict>
+			<key>Action</key>
+			<integer>12</integer>
+			<key>Keycode</key>
+			<integer>13</integer>
+			<key>Modifiers</key>
+			<integer>131072</integer>
+			<key>Text</key>
+			<string>\n</string>
+			<key>Version</key>
+			<integer>1</integer>
+		</dict>
+	</dict>
 	<key>HTMLTabTitles</key>
 	<false/>
 	<key>HapticFeedbackForEsc</key>
@@ -939,6 +955,8 @@
 				<key>Red Component</key>
 				<real>0.47397637367248535</real>
 			</dict>
+			<key>Load Shell Integration Automatically</key>
+			<false/>
 			<key>Minimum Contrast</key>
 			<real>0.0</real>
 			<key>Mouse Reporting</key>
@@ -950,7 +968,7 @@
 			<key>Non-ASCII Anti Aliased</key>
 			<true/>
 			<key>Normal Font</key>
-			<string>JetBrainsMono-Regular 18</string>
+			<string>JetBrainsMono-Regular 15</string>
 			<key>Option Key Sends</key>
 			<integer>0</integer>
 			<key>Prevent Automatic Profile Switching</key>
@@ -1072,7 +1090,7 @@
 	<key>VisualIndicatorForEsc</key>
 	<false/>
 	<key>WordCharacters</key>
-	<string>-+\~_.</string>
+	<string>-+\~_</string>
 	<key>findMode_iTerm</key>
 	<integer>0</integer>
 	<key>kCPKSelectionViewPreferredModeKey</key>

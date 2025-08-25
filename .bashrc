@@ -30,7 +30,7 @@ alias g='git status'
 alias gp='git remote prune origin'
 alias fm='git fetch origin next-master:next-master && gp'
 alias dt='z designtokens generate && prettier'
-alias gcob='git checkout -b'
+alias gcob='gt c'
 alias merged='git com && git br -D @{-1} && git up && gp'
 alias fixup='git add . && git ca'
 parse_git_branch() { git branch 2> /dev/null | sed -e '/^[^*]/d' -e 's/* \(.*\)/ (\1)/'; }

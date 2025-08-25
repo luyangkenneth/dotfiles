@@ -11,7 +11,9 @@
 [alias]
   rbm = rebase next-master
   rim = rebase -i next-master
+  ri = rebase -i
   rbc = rebase --continue
+  rba = rebase --abort
   cp = cherry-pick
   st = status
   br = branch
