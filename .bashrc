@@ -24,6 +24,7 @@ alias gbf='generate-build-file'
 alias bzlfix='generate-build-file --diff next-master'
 alias newsand='z sand sync webapp -n --webapp-run-arg=enable_sol_theme_toggler=true'
 alias keepsand='z sand sync webapp -k --webapp-run-arg=enable_sol_theme_toggler=true'
+alias recentprojects='sublime $CODEZ/.tools-data/recent_projects.txt'
 
 ### Git
 alias g='git status'
