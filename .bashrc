@@ -28,8 +28,8 @@ alias recentprojects='sublime $CODEZ/.tools-data/recent_projects.txt'
 
 ### Git
 alias g='git status'
-alias b='gt ls'
-alias l='git la'
+alias b='gt ls && echo'
+alias l='git la && echo'
 alias d='git di'
 alias sync='gt sync'
 alias ss='gt ss'
