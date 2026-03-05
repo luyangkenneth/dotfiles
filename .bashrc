@@ -28,6 +28,12 @@ alias recentprojects='sublime $CODEZ/.tools-data/recent_projects.txt'
 
 ### Git
 alias g='git status'
+alias b='gt ls'
+alias l='git la'
+alias d='git di'
+alias sync='gt sync'
+alias ss='gt ss'
+alias rs='gt restack'
 alias gp='git remote prune origin'
 alias fm='git fetch origin next-master:next-master && gp'
 alias dt='z designtokens generate && prettier'
@@ -44,3 +50,11 @@ export BASH_SILENCE_DEPRECATION_WARNING=1
 
 # uv
 export PATH="/Users/kennethlu/.local/bin:$PATH"
+
+# pnpm
+export PNPM_HOME="/Users/kennethlu/Library/pnpm"
+case ":$PATH:" in
+  *":$PNPM_HOME:"*) ;;
+  *) export PATH="$PNPM_HOME:$PATH" ;;
+esac
+# pnpm end
