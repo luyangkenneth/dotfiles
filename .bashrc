@@ -25,6 +25,7 @@ alias bzlfix='generate-build-file --diff next-master'
 alias newsand='z sand sync webapp -n --webapp-run-arg=enable_sol_theme_toggler=true'
 alias keepsand='z sand sync webapp -k --webapp-run-arg=enable_sol_theme_toggler=true'
 alias recentprojects='sublime $CODEZ/.tools-data/recent_projects.txt'
+alias examples='run-app //asana/web/asana_dev:examples_app'
 
 ### Git
 alias g='git status'
@@ -38,7 +39,7 @@ alias rs='gt restack'
 alias gp='git remote prune origin'
 alias fm='git fetch origin next-master:next-master && gp'
 alias dt='z designtokens generate && prettier'
-alias gcob='gt c'
+alias gcob='gt c --no-interactive'
 alias merged='git com && git br -D @{-1} && git up && gp'
 alias fixup='git add . && git ca'
 parse_git_branch() { git branch 2> /dev/null | sed -e '/^[^*]/d' -e 's/* \(.*\)/ (\1)/'; }
