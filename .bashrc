@@ -31,10 +31,11 @@ alias examples='run-app //asana/web/asana_dev:examples_app'
 alias g='git status'
 alias b='gt ls && echo'
 alias l='git la && echo'
-alias d='git di'
+alias d='git di -b'
 alias sync='gt sync'
 alias ss='gt ss'
 alias rbs='sync && ss'
+alias rbc='git add . && gt continue'
 alias rs='gt restack'
 alias gp='git remote prune origin'
 alias fm='git fetch origin next-master:next-master && gp'
@@ -42,6 +43,7 @@ alias dt='z designtokens generate && prettier'
 alias gcob='gt c --no-interactive'
 alias merged='git com && git br -D @{-1} && git up && gp'
 alias fixup='git add . && git ca'
+acf() { z ai code "/ai-coder-followup $1"; }
 parse_git_branch() { git branch 2> /dev/null | sed -e '/^[^*]/d' -e 's/* \(.*\)/ (\1)/'; }
 export PS1="\[\033[38;5;213m\]>\[\033[00m\] \W\[\033[32m\]\$(parse_git_branch)\[\033[00m\] $ "
 

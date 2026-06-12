@@ -25,11 +25,11 @@
   cm = commit -m
   ca = commit --amend
   pushf = push --force-with-lease
-  di = diff
-  dc = "!f() { git diff \"$1^\" \"$1\"; }; f"
-  dim = diff next-master
-  dh = diff HEAD~1
-  ds = diff --staged
+  di = diff -b
+  dc = "!f() { git di \"$1^\" \"$1\"; }; f"
+  dim = di next-master -b
+  dh = di HEAD~1 -b
+  ds = di --staged -b
   discard = checkout --
   unstage = reset HEAD --
   lg = log next-master..HEAD -15 --pretty=format:'%C(red)%h%C(reset)%C(yellow)%d%C(reset) %s'
