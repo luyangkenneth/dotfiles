@@ -26,6 +26,7 @@ alias newsand='z sand sync webapp -n --webapp-run-arg=enable_sol_theme_toggler=t
 alias keepsand='z sand sync webapp -k --webapp-run-arg=enable_sol_theme_toggler=true'
 alias recentprojects='sublime $CODEZ/.tools-data/recent_projects.txt'
 alias examples='run-app //asana/web/asana_dev:examples_app'
+alias setupsand='vssh "js apps/asana/sand_data/scripts/simulate_asana_dev_project --treat_warnings_as_errors=false"'
 
 ### Git
 alias g='git status'
