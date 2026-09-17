@@ -17,9 +17,9 @@
 	<key>AIVectorStore</key>
 	<integer>0</integer>
 	<key>AiMaxTokens</key>
-	<integer>400000</integer>
+	<integer>1050000</integer>
 	<key>AiModel</key>
-	<string>gpt-5.2</string>
+	<string>gpt-5.5</string>
 	<key>AiResponseMaxTokens</key>
 	<integer>128000</integer>
 	<key>AitermURL</key>
@@ -436,6 +436,8 @@
 		<dict>
 			<key>ASCII Anti Aliased</key>
 			<true/>
+			<key>ASCII Ligatures</key>
+			<false/>
 			<key>Allow Title Setting</key>
 			<false/>
 			<key>Ambiguous Double Width</key>
@@ -445,13 +447,13 @@
 				<key>Alpha Component</key>
 				<real>1</real>
 				<key>Blue Component</key>
-				<real>0.7523762583732605</real>
+				<real>0.40000000000000002</real>
 				<key>Color Space</key>
 				<string>P3</string>
 				<key>Green Component</key>
-				<real>0.7523762583732605</real>
+				<real>0.40000000000000002</real>
 				<key>Red Component</key>
-				<real>0.7523762583732605</real>
+				<real>0.40000000000000002</real>
 			</dict>
 			<key>Ansi 1 Color</key>
 			<dict>
@@ -523,13 +525,13 @@
 				<key>Alpha Component</key>
 				<real>1</real>
 				<key>Blue Component</key>
-				<real>0.91734552383422852</real>
+				<real>0.9137254901960784</real>
 				<key>Color Space</key>
 				<string>P3</string>
 				<key>Green Component</key>
-				<real>0.8161957859992981</real>
+				<real>0.81568627450980391</real>
 				<key>Red Component</key>
-				<real>0.60700350999832153</real>
+				<real>0.60392156862745094</real>
 			</dict>
 			<key>Ansi 15 Color</key>
 			<dict>
@@ -542,7 +544,7 @@
 				<key>Green Component</key>
 				<real>1</real>
 				<key>Red Component</key>
-				<real>0.99999994039535522</real>
+				<real>0.99607843137254903</real>
 			</dict>
 			<key>Ansi 2 Color</key>
 			<dict>
@@ -601,13 +603,13 @@
 				<key>Alpha Component</key>
 				<real>1</real>
 				<key>Blue Component</key>
-				<real>0.91734552383422852</real>
+				<real>0.9137254901960784</real>
 				<key>Color Space</key>
 				<string>P3</string>
 				<key>Green Component</key>
-				<real>0.8161957859992981</real>
+				<real>0.81568627450980391</real>
 				<key>Red Component</key>
-				<real>0.60700350999832153</real>
+				<real>0.60392156862745094</real>
 			</dict>
 			<key>Ansi 7 Color</key>
 			<dict>
@@ -620,20 +622,20 @@
 				<key>Green Component</key>
 				<real>1</real>
 				<key>Red Component</key>
-				<real>0.99999994039535522</real>
+				<real>0.99607843137254903</real>
 			</dict>
 			<key>Ansi 8 Color</key>
 			<dict>
 				<key>Alpha Component</key>
 				<real>1</real>
 				<key>Blue Component</key>
-				<real>0.7523762583732605</real>
+				<real>0.40000000000000002</real>
 				<key>Color Space</key>
 				<string>P3</string>
 				<key>Green Component</key>
-				<real>0.7523762583732605</real>
+				<real>0.40000000000000002</real>
 				<key>Red Component</key>
-				<real>0.7523762583732605</real>
+				<real>0.40000000000000002</real>
 			</dict>
 			<key>Ansi 9 Color</key>
 			<dict>
@@ -655,13 +657,13 @@
 				<key>Alpha Component</key>
 				<real>1</real>
 				<key>Blue Component</key>
-				<real>0.20464539527893066</real>
+				<real>0.20392156862745098</real>
 				<key>Color Space</key>
 				<string>P3</string>
 				<key>Green Component</key>
-				<real>0.17182084918022156</real>
+				<real>0.16862745098039217</real>
 				<key>Red Component</key>
-				<real>0.15347275137901306</real>
+				<real>0.15294117647058825</real>
 			</dict>
 			<key>Background Image Location</key>
 			<string></string>
@@ -723,15 +725,15 @@
 			<key>Cursor Guide Color</key>
 			<dict>
 				<key>Alpha Component</key>
-				<real>0.25</real>
+				<real>0.3359375</real>
 				<key>Blue Component</key>
-				<real>0.99078148603439331</real>
+				<real>0.98823529481887817</real>
 				<key>Color Space</key>
 				<string>P3</string>
 				<key>Green Component</key>
-				<real>0.92047786712646484</real>
+				<real>0.91764706373214699</real>
 				<key>Red Component</key>
-				<real>0.74862587451934814</real>
+				<real>0.7450980544090271</real>
 			</dict>
 			<key>Cursor Text Color</key>
 			<dict>
@@ -756,6 +758,8 @@
 			<string>Default</string>
 			<key>Disable Window Resizing</key>
 			<true/>
+			<key>Faint Text Alpha</key>
+			<real>0.5</real>
 			<key>Flashing Bell</key>
 			<true/>
 			<key>Foreground Color</key>
@@ -763,13 +767,13 @@
 				<key>Alpha Component</key>
 				<real>1</real>
 				<key>Blue Component</key>
-				<real>0.92156857252120972</real>
+				<real>0.91764705882352937</real>
 				<key>Color Space</key>
 				<string>P3</string>
 				<key>Green Component</key>
-				<real>0.92156857252120972</real>
+				<real>0.91764705882352937</real>
 				<key>Red Component</key>
-				<real>0.92156857252120972</real>
+				<real>0.91764705882352937</real>
 			</dict>
 			<key>Guid</key>
 			<string>17E95269-BA69-4718-A2AE-9DD59E7A7BEC</string>
@@ -1089,7 +1093,11 @@
 			<true/>
 			<key>Use Non-ASCII Font</key>
 			<false/>
+			<key>Use Selected Text Color</key>
+			<true/>
 			<key>Use Tab Color</key>
+			<false/>
+			<key>Use Underline Color</key>
 			<false/>
 			<key>Vertical Spacing</key>
 			<real>1</real>
@@ -1112,7 +1120,7 @@
 	<key>SeparateStatusBarsPerPane</key>
 	<true/>
 	<key>ShowFullScreenTabBar</key>
-	<true/>
+	<false/>
 	<key>SoundForEsc</key>
 	<false/>
 	<key>SplitPaneDimmingAmount</key>
